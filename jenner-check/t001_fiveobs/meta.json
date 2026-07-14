@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_fiveobs",
+  "source_file": "utl-altair-slc-simulating-three-antennae-systems-analyze-co-site-interference-using-s-parameters.sas",
+  "source_blob_sha": "48de8405b9ac147d928c7e55bc8e41f8b8937208",
+  "source_commit": "2656ef42e176eda79c8b729bb325eb7197f63f33",
+  "notes": "Runs the program's %fiveobs macro (proc print data=&dsn(obs=5) with a TITLE) against the four SLC frequency-sweep tables (isolation, reflection, total_coupling, transmission). The tables are loaded from the frequency values shipped in the repo's *_data.csv companions via inline DATALINES, preserving the exact column names (Frequency_GHz, Isolation_Ant1_2_dB, S11_dB, ...); the upstream sas7bdat libname (d:/lgs) is not available off-platform. First-5-obs output matches the program's own inline-documented listing."
+}
