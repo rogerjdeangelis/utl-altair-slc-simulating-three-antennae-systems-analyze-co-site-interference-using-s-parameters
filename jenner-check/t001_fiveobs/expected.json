@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-14T15:57:00Z",
+  "_captured_run_id": "r_e387de2d74cd4412980a603a94796a1c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote isolation (10 rows, 4 columns).",
+    "NOTE: Wrote transmission (10 rows, 4 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
